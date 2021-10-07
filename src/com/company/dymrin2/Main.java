@@ -3,6 +3,13 @@ package com.company.dymrin2;
 
 public class Main {
 
+    /*
+    Jewels and Stones
+    jewels: символы уникальны, каждый символ символизирут тип драгоценного камня.
+Регистр имеет значение.
+stones: камни, среди которых могут встречаться драгоценные.
+Метод должне вернуть количество драгоценых камней в строке stones.
+    */
     public static void main(String[] args) {
 
     }
@@ -16,6 +23,12 @@ public class Main {
         return numberOfJewels;
     }
 
+    /*
+    Robot Return to Origin
+Есть робот на плоскости. Он может двигаться на 1 шаг в стороны:
+R (right), L (left), U (up), and D (down)
+Задана последовательность движений, вернуть true если оне вернется в исходную точку.
+    */
 
     public boolean judgeCircle(String moves) {
         int x = 0, y = 0;
